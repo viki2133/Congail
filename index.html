@@ -5,45 +5,54 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Congail Band</title>
-	<link rel="icon" href="img/congail.jpg">
+	<link rel="icon" href="img/congail.png">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-	<script src="swipe_plugin.min.js"></script>
-	<script src="script.js"></script>
-	<link href="style.css" rel="stylesheet">
+	<script src="bin/js/swipe_plugin.min.js"></script>
+	<script src="bin/js/script.js"></script>
+	<link href="bin/css/style.css" rel="stylesheet">
 
-	<style>
-		body{
-			background-color:black;
-		}
-		.container{
-			padding-top:50px;
-		}
-		img{
-			width:30%;
-		}
-		h1{
-			color:grey;
-		}
-		h1:hover{
-			color: rgb(100, 100, 100);
-		}
-		a:link, a:visited, a:hover, a:active{
-			text-decoration: none;
-		}
-	</style>
 </head>
 
-<body>
-	<div class="container padding text-center">
-		<a href="https://www.facebook.com/Congail-1827296337286659/"><img src="img/congail.jpg">
-		<br>
-		<h1 class="display-5">Soon...</h1>
-		</a>
-	</div>
+<body class="">
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<div class="container-fluid bg-dark">
+			<div class="navbar-brand">
+				<a href="#"><img src="img/congail.png"></a>
+			</div>
+
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#navCol">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+		</div>
+
+		<div class="collapse navbar-collapse" id="navCol">
+				<div class="container-fluid">
+					<ul class="navbar-nav ml-auto">
+						<hr class="thick">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Members</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Gallery</a>
+						</li>
+						<li class="nav-item last">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+	</nav>
 </body>
 
 </html>

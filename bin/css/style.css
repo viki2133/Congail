@@ -1,0 +1,25 @@
+.navbar-brand img{
+    width:50px;;
+}
+li.nav-item{
+    padding-right: 30px;
+}
+
+li.last{
+    padding-right:10px;
+}
+
+/*---Media Queries --*/
+
+
+
+@media (max-width: 992px) {
+
+  }
+  
+  @media (max-width: 768px) {
+  }
+  
+  @media (max-width: 576px) {
+
+  }
