@@ -8,6 +8,14 @@ $(document).ready(function () {
             $("#bsdemo").carousel('next');
     });
 
-    
+    $('#ab').hover(function () { 
+        $(this).find("#ddm").slideToggle(); 
+    });
+
+    $(".nav-link").click(function (e) { 
+        e.preventDefault();
+        var item = $(this).attr("href");
+        $(document).scrollTo(item, 800);
+    });
 });
 
